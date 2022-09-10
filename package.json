@@ -1,0 +1,25 @@
+{
+  "name": "juan_mata_fpl",
+  "version": "1.0.0",
+  "description": "node script that calculates and exports juan_mata_fpl league standings of fantasy premier league",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --no-warnings index.js"
+  },
+  "keywords": [
+    "fpl",
+    "fpl-juan-mata",
+    "fpl-tunisia",
+    "fpm-tunisian-community",
+    "fpl-community"
+  ],
+  "author": "lastmaj",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0"
+  }
+}
