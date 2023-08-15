@@ -1,30 +1,4 @@
-const dupes = [
-  2171041, 2255842, 181437, 1574972, 1106356, 397085, 3925945, 5697227,
-];
-
-const cheaters = [
-  { cheater_league: "Marina", cheater_ids: [397085] },
-  {
-    cheater_league: "soupape سمير",
-    cheater_ids: [2171041, 2255842, 181437],
-  },
-  {
-    cheater_league: "dhieb weld el beji",
-    cheater_ids: [2171041, 2255842, 181437],
-  },
-  { cheater_league: "los pollos hermanos", cheater_ids: [1106356] },
-  { cheater_league: "انشاء الله يربح", cheater_ids: [1574972] },
-  { cheater_league: "House Of Stark", cheater_ids: [1574972] },
-
-  { cheater_league: "Azul y Oro", cheater_ids: [1106356] },
-  { cheater_league: "Glory FC", cheater_ids: [3925945] },
-
-  { cheater_league: "Fantasyin", cheater_ids: [397085] },
-  { cheater_league: "المظلوم هاري ماغواير", cheater_ids: [5697227] },
-
-  { cheater_league: "😈Høüsę_øf_fóxės🦊", cheater_ids: [3925945] },
-  { cheater_league: "123", cheater_ids: [5697227] },
-];
+// as of 15th Aug (3AM)
 
 const data = [
   {
@@ -1043,4 +1017,36 @@ const data = [
   },
 ];
 
-console.log(data.length);
+module.exports = data;
+
+// const dupes = [
+//   2171041, 2255842, 181437, 1574972, 1106356, 397085, 3925945, 5697227,
+// ];
+
+// const cheaters = [
+//   { cheater_league: "Marina", cheater_ids: [397085] },
+//   {
+//     cheater_league: "soupape سمير",
+//     cheater_ids: [2171041, 2255842, 181437],
+//   },
+//   {
+//     cheater_league: "dhieb weld el beji",
+//     cheater_ids: [2171041, 2255842, 181437],
+//   },
+//   { cheater_league: "los pollos hermanos", cheater_ids: [1106356] },
+//   { cheater_league: "انشاء الله يربح", cheater_ids: [1574972] },
+//   { cheater_league: "House Of Stark", cheater_ids: [1574972] },
+
+//   { cheater_league: "Azul y Oro", cheater_ids: [1106356] },
+//   { cheater_league: "Glory FC", cheater_ids: [3925945] },
+
+//   { cheater_league: "Fantasyin", cheater_ids: [397085] },
+//   { cheater_league: "المظلوم هاري ماغواير", cheater_ids: [5697227] },
+
+//   { cheater_league: "😈Høüsę_øf_fóxės🦊", cheater_ids: [3925945] },
+//   { cheater_league: "123", cheater_ids: [5697227] },
+// ];
+
+const dupes = [
+  2171041, 2255842, 181437, 1574972, 1106356, 397085, 3925945, 5697227,
+];
